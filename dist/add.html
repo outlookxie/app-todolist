@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>新增任务</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+        <link rel="shortcut icon" type="image/x-icon" href=""/> 
+        <meta name="keywords" content=""/>
+        <meta name="description" content=""/>
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+        <meta name="format-detection" content="telephone=no">
+        <meta name="author" content="" />
+        <meta name="copyright" content=""/>
+        <link rel="stylesheet" href="./css/task.css"/>
+    </head>
+    <body>
+        <div class="doc">
+            <div class="task-add" id="task-add">
+                <div class="cells cells-form">
+                   <div class="cell">
+                            <div class="cell-hd"><label class="label">任务描述</label></div>
+                            <div class="cell-bd cell-primary">
+                                <input class="input" type="text" id="taskName" name="taskName" placeholder="请输入">
+                            </div>
+                        </div>
+                    <div class="cell">
+                            <div class="cell-hd"><label class="label">开始时间</label></div>
+                            <div class="cell-bd cell-primary datepicker">
+                                <div class="date" id="start-date"></div>
+                            </div>
+                        </div>
+                    <div class="cell">
+                            <div class="cell-hd"><label class="label">结束时间</label></div>
+                            <div class="cell-bd cell-primary datepicker">
+                                <div class="date" id="end-date"></div>
+                            </div>
+                        </div>     
+                     <div class="cell">
+                            <div class="cell-hd"><label class="label">优先级</label></div>
+                            <div class="cell-bd cell-primary select-type">
+                                <div class="select"></div>
+                                <input type="hidden" name="taskType" id="taskType" />
+                            </div>
+                        </div>    
+                </div>
+            </div>
+        </div>
+        <script src="//g.alicdn.com/ilw/cdnjs/jquery/2.1.4/jquery.min.js"></script>
+        <script src="//g.alicdn.com/ilw/ding/0.6.2/scripts/dingtalk.js"></script>
+        <script src="./js/fastclick.js"></script>
+        <script src="./js/add.js"  async="async"></script>
+    </body>
+</html>

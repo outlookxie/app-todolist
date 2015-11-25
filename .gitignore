@@ -1,0 +1,12 @@
+.project
+.settings
+*~
+*.diff
+*.patch
+.DS_Store
+.bower.json
+.sizecache.json
+
+
+/node_modules
+/hpm

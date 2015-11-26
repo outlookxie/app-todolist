@@ -48,6 +48,17 @@
         <script src="//g.alicdn.com/ilw/cdnjs/jquery/2.1.4/jquery.min.js"></script>
         <script src="//g.alicdn.com/ilw/ding/0.6.2/scripts/dingtalk.js"></script>
         <script src="./js/fastclick.js"></script>
+        <script type="text/javascript">
+            //文档见http://open.dingtalk.com/doc/#权限验证配置-beta
+             dd.config({
+                agentId: '', // 必填，微应用ID
+                corpId: '',//必填，企业ID
+                timeStamp: , // 必填，生成签名的时间戳
+                nonceStr: '', // 必填，生成签名的随机串
+                signature: '', // 必填，签名
+                jsApiList: ['biz.navigation.setLeft','biz.navigation.setTitle','biz.navigation.setRight', 'biz.util.datepicker','biz.navigation.close','biz.util.chosen'] // 必填，需要使用的jsapi列表
+            });
+        </script>
         <script src="./js/detail.js"  async="async"></script>
     </body>
 </html>

@@ -8,5 +8,5 @@
 .sizecache.json
 
 
-/node_modules
+node_modules
 /hpm

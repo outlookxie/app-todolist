@@ -7,7 +7,7 @@
 ### 第二步 安装gulp
 	sudo npm install --global gulp
 ### 第三步  clone代码到本地
-	git clone git@gitlab.alibaba-inc.com:dingding/demo.git
+	git clone https://github.com/outlookxie/app-todolist.git
 ### 第四步 进入demo目录，并执行如下命令
 	npm install
 ### 第五步 启动环境

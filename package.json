@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@gitlab.alibaba-inc.com:dingding/demo.git"
+    "url": "git@github.com:outlookxie/app-todolist.git"
   },
   "author": "guizhong",
   "license": "ISC",
   "bugs": {
     "url": ""
   },
-  "homepage": "http://gitlab.alibaba-inc.com/dingding/demo",
+  "homepage": "http://www.dingtalk.com",
   "devDependencies": {
     "marked": "^0.3.2",
     "babel": "^5.8.3",
